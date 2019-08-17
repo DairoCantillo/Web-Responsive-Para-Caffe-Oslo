@@ -41,6 +41,9 @@ li{
 .material-icons.md-48 { 
     font-size: 50px;
 }
+.material-icons.md-48:active { 
+    color: #d03b40;
+}
 .cabecera{
     float: left;
     width: 100%;
