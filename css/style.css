@@ -139,6 +139,9 @@ header{
  .productos button:hover{
     color: #3c3c3b;
  }
+ .productos button:active{
+    color: #3c3c3b;
+ }
 .descripcion2{
     width: 50%;
     text-align: center;
@@ -180,10 +183,12 @@ header{
 
 a:active {
     text-decoration: none;  
-    text-decoration-line: underline;
 }
 
 nav ul li a:hover{
+    text-decoration-line: underline;
+}
+nav ul li a:active{
     text-decoration-line: underline;
 }
 
